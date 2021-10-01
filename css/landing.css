@@ -1,0 +1,194 @@
+.button {
+  outline: none;
+  border: none;
+  background-color: #5bacc3;
+  color: #f7f7f7;
+  min-width: 11.25rem;
+  max-width: 80%;
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.25rem;
+  text-transform:uppercase;
+  position: relative;
+}
+
+.buttonBorder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 2px solid #393939;
+  top: -8px;
+  left: -8px;
+  z-index: 10;
+}
+
+
+.products{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding:20px;
+}
+.products-container{
+  display:flex;
+  justify-content:space-evenly;
+  padding-top:20px;
+}
+
+.products__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  margin-bottom: 1.25rem;
+  min-width: 20.625rem;
+  max-width: 21.875rem;
+  min-height: 27.5rem;
+  max-height: 28.75rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 5px 9px -1px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  background-color:#FFF;
+}
+
+.products__image {
+  padding-top: 20px;
+  min-height: 15rem;
+  max-height: 34.375rem;
+}
+
+.products__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fff0ed;
+  width: 100%;
+  padding:20px 0;
+}
+.description-box1 {
+text-align: left;
+padding-left:10px;
+}
+
+.description-box2 {
+  text-align: right;
+  padding-top: 10px; 
+}
+
+
+.product-name{
+  margin:0;
+}
+
+.product-quantity{
+ margin:0;
+ font-size: small;
+ font-weight: 500;
+ color:#909090;
+}
+.product-price{
+  color: #5bacc3;
+  font-style:normal;
+  font-weight: 800;
+  text-align:right;
+  font-size: 1.313rem;
+}
+
+.details-container{
+  display:flex;
+  justify-content:space-around;
+}
+
+.details-container__info{
+  display:flex;
+  flex-direction:column;
+  padding-top:100px;
+}
+
+.details-container__image{
+  background-image: url(../assets/coldbrewbackground.png);
+  background-size: cover;
+  min-width: 400px;
+  max-width: 500px;
+  margin-top:60px;
+  position:relative;
+}
+
+.products__tiltedimage {
+  padding: 80px 60px 60px 120px;
+}
+
+
+.details-container_border {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 5px solid #5bacc3;
+  top: -20px;
+  left: -20px;
+  z-index: 10;
+}
+
+.icons
+{
+  display:flex;
+  justify-content:space-between;
+}
+
+.imagePosition {
+  display: block;
+  margin-left: auto;
+}
+
+.landingMenu {
+  background-color: #fff0ed;
+  margin: 0;
+}
+
+.menuContent {
+  padding: 1.25rem 0;
+  padding-top: 6.25rem;
+  float: left;
+  width: 30%;
+  height: 50%;
+  text-align: left;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 6.25rem;
+}
+
+.menuImage {
+   text-align:right;
+  padding:60px;
+  padding-right:140px;
+}
+
+.discountBanner {
+  padding: 1.25rem;
+  max-width: 90%;
+  min-width: 2.813rem;
+  background-color: #393939;
+  color: #f7f7f7;
+  margin:5.75rem
+}
+
+.discountBanner__width {
+  font-size: 2.5rem;
+  text-align: center;
+  padding:20px;
+  margin:0;
+}
+
+.footerContainer {
+  margin: 0 0;
+  text-align: center;
+  background:url(../assets/coffee-beans-logo-and-footer.svg) right -30px bottom 10px/80px 80px no-repeat,url(../assets/coffee-beans-logo-and-footer.svg) left -30px top 10px/80px 80px no-repeat; 
+}
+.footerContainer__info {
+  display: inline-block;
+  vertical-align: top;
+  margin: 2.5rem;
+}

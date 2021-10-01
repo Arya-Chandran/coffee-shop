@@ -1,0 +1,103 @@
+
+.navmenu{
+  margin: 0;
+  padding:0;
+  background-color: #393939;
+  text-align: center;
+
+}
+
+.navmenu li {
+  display: inline-block;
+  vertical-align: top;
+  border-left: 4px solid #5bacc3;
+  list-style-type: none;
+  background-color: #393939;
+  text-align: center;
+  justify-content: center; 
+  padding: 1.25rem;
+  margin: 1.25rem;
+}
+
+
+.navmenu li a {
+  text-decoration:none;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.titleHeading {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+.div-bg {
+  min-width: 100%;
+  max-width: 100%;
+  min-height:35.938rem;
+  max-height: 37.5rem;
+  background-position: center;
+  background-size: cover;
+  background-image:url(../assets/coffee-circle.jpg);
+  position: relative;
+}
+
+.titlebox_border {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 5px solid #5bacc3;
+  top: -20px;
+  left: -20px;
+  z-index: 10;
+}
+
+.titlebox{
+  position: absolute;
+  top:34%;
+  bottom:35%;
+  left: 39%;
+  right:41%;
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align:center;
+  min-width: 17.5rem;
+  max-width: 18.75rem;
+  min-height: 11.25rem;
+  max-height: 12.5rem;
+  background-color: #393939 ;
+  color: #FFF; 
+}
+
+
+section {
+  padding: 2.5rem 0;
+}
+
+section h2 {
+  margin: 0;
+  text-align:center;
+}
+
+section h3 {
+  text-align:center;
+  margin-bottom: 0;
+}
+
+section .price {
+  margin: 0;
+  text-align:center;
+}
+
+section .description {
+  font-style:italic;
+  text-align:center;
+  width:39%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+
+
